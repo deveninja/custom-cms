@@ -4,7 +4,4 @@
 
 
 // Initialize App functionaility
-$core = new Core;
-
-Database::getInstance(); 
-
+$init = new Core;
