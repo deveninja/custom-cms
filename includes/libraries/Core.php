@@ -32,6 +32,7 @@
     /**
      * Invoke the function at initialization
      */
+    // echo 'Core Class <br />';
     $route = $this->getRoute();
 
     /**

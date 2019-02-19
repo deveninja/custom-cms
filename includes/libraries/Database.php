@@ -14,6 +14,7 @@ class Database {
   private function __construct() {
     // echo 'Database instantiated';
     // echo dirname(__FILE__);
+    // echo 'Database Class <br />';
   }
 
   public static function getInstance() {

@@ -9,14 +9,27 @@
 class Pages extends Controller {
 
   public function __construct() {
-    // $this->index();
+    // echo 'Hello Pages <br />';
+    $this->view('../inc/header');
   }
 
   public function index() {
-    $this->view('index');    
+    $this->view('pages/home');    
   }
 
   public function about() {
-    echo 'Method Page About';
+    echo 'About Page';
+  }
+
+  public function contact() {
+    echo 'Contact Page';
+  }
+
+  public function portfolio() {
+    echo 'Portfolio Page';
+  }
+
+  public function services() {
+    echo 'Service Page';
   }
 }
