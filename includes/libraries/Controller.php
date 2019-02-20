@@ -8,7 +8,7 @@
  class Controller {
 
   public function __construct() {
-    echo 'Controller class <br />';
+    // echo 'Controller class <br />';
   }
    /**
     * This will load the model

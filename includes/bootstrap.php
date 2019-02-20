@@ -1,6 +1,12 @@
 <?php
 
 /**
+ * Require CMS constants
+ */
+
+ require_once '../includes/config/CMSconstants.php';
+
+/**
  * Require all App Core Classes
  */
   spl_autoload_register(function($className){

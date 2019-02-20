@@ -9,10 +9,12 @@
 class Posts extends Controller{
 
   public function __construct() {
-    // $this->index();
+    require_once(CMSROOT . '/includes/views/inc/header.php');
+    $this->index();
+    require_once(CMSROOT . '/includes/views/inc/footer.php');
   }
 
   public function index() {
-    $this->view('index');
+    $this->view('posts/index');
   }
 }

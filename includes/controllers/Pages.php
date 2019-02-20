@@ -10,7 +10,9 @@ class Pages extends Controller {
 
   public function __construct() {
     // echo 'Hello Pages <br />';
-    require_once('../inc/header');
+    require_once(CMSROOT . '/includes/views/inc/header.php');
+    $this->index();
+    require_once(CMSROOT . '/includes/views/inc/footer.php');
   }
 
   public function index() {
